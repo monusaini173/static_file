@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Website</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">MyWebsite</div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button id="menuBtn">☰</button>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+            <p class="small-title">WELCOME TO MY WEBSITE</p>
+
+            <h1>
+                Build Your
+                <span>Digital Future</span>
+            </h1>
+
+            <p>
+                We create modern, fast and professional websites
+                for businesses and individuals.
+            </p>
+
+            <button class="btn" onclick="showMessage()">
+                Get Started
+            </button>
+        </div>
+
+    </section>
+
+
+    <!-- About -->
+    <section id="about" class="section">
+
+        <h2>About Us</h2>
+
+        <p>
+            We provide professional web development and digital
+            solutions to help businesses grow online.
+        </p>
+
+    </section>
+
+
+    <!-- Services -->
+    <section id="services" class="section">
+
+        <h2>Our Services</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Web Development</h3>
+                <p>
+                    Modern and responsive websites using HTML,
+                    CSS and JavaScript.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>UI/UX Design</h3>
+                <p>
+                    Clean and professional user interfaces
+                    for websites and applications.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Business Website</h3>
+                <p>
+                    Professional websites designed for
+                    small and large businesses.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+
+        <h2>Contact Us</h2>
+
+        <form id="contactForm">
+
+            <input type="text" id="name" placeholder="Your Name" required>
+
+            <input type="email" id="email" placeholder="Your Email" required>
+
+            <textarea id="message" placeholder="Your Message" required></textarea>
+
+            <button class="btn" type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 MyWebsite. All Rights Reserved.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
